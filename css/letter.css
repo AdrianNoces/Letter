@@ -7,7 +7,7 @@
 }
 
 .greet {
-    color:#0081A7;
+    color:#F07167;
     font-style: italic;
 }
 
@@ -20,16 +20,26 @@ h2 {
     text-align: end;
 }
 
+
+
 body {
     display: flex;
     align-items: start;
     justify-content: start;
+    background-color: rgb(233, 233, 233);
 }
 
 @media screen and (min-width: 1280px) {
     .whiteButton {
         width: 900px;
         background-color: whitesmoke;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     
 }
